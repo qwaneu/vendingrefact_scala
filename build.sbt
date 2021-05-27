@@ -1,7 +1,8 @@
-name := "vendingrefact_scala"
+ThisBuild / name := "vendingrefact_scala"
+ThisBuild / organizationName := "QWAN - Quality Without a Name"
 
-version := "1.0"
+ThisBuild / version := "1.0"
 
-scalaVersion := "2.11.8"
+ThisBuild / scalaVersion  := "2.13.6"
 
-libraryDependencies += "org.specs2" % "specs2_2.11" % "3.7"
+ThisBuild / libraryDependencies += "org.specs2" %% "specs2-core" % "4.10.6"
